@@ -98,3 +98,4 @@ application-*.properties
 *.bak
 *.swp
 *.swo
+/.metadata/
