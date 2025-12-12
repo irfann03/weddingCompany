@@ -56,3 +56,7 @@ cd weddingCompany
 mvn clean install
 
 mvn spring-boot:run
+
+# Design Architecture
+
+<img width="564" height="416" alt="Screenshot 2025-12-13 at 3 28 45 AM" src="https://github.com/user-attachments/assets/5fdc3246-44f7-4995-8abe-a92f2b62ed46" />
