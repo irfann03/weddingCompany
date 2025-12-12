@@ -1,18 +1,16 @@
 # Tech stack
 Java (JDK 17+ recommended)
 
-Spring Boot (Spring Web, Spring Data MongoDB)
+Spring Boot (Spring Web, Spring Data MongoDB, lombok)
 
 MongoDB Atlas (cloud MongoDB)
 
-Maven or Gradle as build tool
+Maven as build tool
 
 # Prerequisites
 JDK 17 or higher installed
 
-Maven or Gradle installed
-
-Git installed
+Maven installed
 
 MongoDB Atlas account and cluster created
 
@@ -24,7 +22,7 @@ Create a database user with username and password.
 Under Network Access, add your IP address (0.0.0.0/0 only for local dev/testing).
 
 
-Go to your cluster → Connect → Connect your application.
+Go to your cluster → Connect → copy the connection String.
 
 # Copy the connection string
 mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/<dbName>?retryWrites=true&w=majority
