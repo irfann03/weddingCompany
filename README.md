@@ -43,12 +43,12 @@ spring.data.mongodb.database=db_name
 
 app.jwt.secret=your_secret_key
 
-# Run the application
-
-git clone 
-
 app.jwt.expiration-ms=3600000
 
 logging.level.org.springframework.data.mongodb.core.MongoTemplate=INFO
 
 logging.level.org.mongodb.driver=INFO
+
+# Run the application
+
+git clone 
