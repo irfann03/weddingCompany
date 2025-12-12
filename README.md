@@ -51,4 +51,10 @@ logging.level.org.mongodb.driver=INFO
 
 # Run the application
 
-git clone 
+git clone https://github.com/irfann03/weddingCompany.git
+
+cd weddingCompany
+
+mvn clean install
+
+mvn spring-boot:run
